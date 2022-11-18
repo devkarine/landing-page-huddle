@@ -1,0 +1,81 @@
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--background);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding: 30px;
+  margin-right: 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.header img {
+  width: 250px;
+  padding-left: 60px;
+}
+
+.container .info {
+  display: flex;
+  padding-top: 90px;
+  padding-left: 60px;
+  gap: 60px;
+}
+.container .info img {
+  height: 100%;
+}
+
+.container .info h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: var(--light);
+  padding-top: 20px;
+}
+
+.container .info p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--light);
+  padding: 15px 0px;
+}
+
+.container .info button {
+  color: var(--background);
+  width: 130px;
+  height: 40px;
+  font-size: 13px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px var(--shadow);
+}
+
+button:hover {
+  background-color: var(--hoover);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.icons {
+  color: var(--light);
+  display: flex;
+  justify-content: flex-end;
+}
+.icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--light);
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+i:hover {
+  border-color: var(--hoover);
+  color: var(--hoover);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
